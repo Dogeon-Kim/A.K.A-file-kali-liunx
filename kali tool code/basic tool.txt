@@ -1,0 +1,27 @@
+#재부팅
+sudo reboot
+
+#나가기
+exit
+
+# basic update
+sudo apt update
+
+# kali linux 한글설정
+
+
+# font korean
+sudo dpkg-reconfigure locales 
+# ko_KR.UTF-8 UTF-8 : space bar
+ 
+# ctrl korean
+sudo apt get install fcitx-hangul -y
+sudo apt-get install fcitx-lib* -y
+im-config 
+# fcitx cheak
+
+# 한글 확인
+fctix-configtool
+
+
+# 한/영=ctrl+space

